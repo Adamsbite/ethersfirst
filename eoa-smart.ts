@@ -16,7 +16,7 @@ async function knowAccountType(address:string) {
     const provider = ethers.getDefaultProvider("mainnet");
     const code = await provider.getCode(address);
     if (code === '0x') {
-        console.log("this is an a EOA account");
+        console.log("this is a an a EOA account");
     }else{
         console.log("this is a smart contracts")
     }
