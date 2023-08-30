@@ -1,4 +1,4 @@
-# ens-normalize.js  
+# ens-normalize.js    
 0-dependancy Compact ES6 [Ethereum Name Service](https://ens.domains/) (ENS) Name Normalizer that works in the browser.
 
 * Follows [ENS Name Normalization Standard](https://github.com/adraffy/ensip-15/blob/master/ens-improvement-proposals/ensip-15-normalization-standard.md)
