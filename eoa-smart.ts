@@ -5,7 +5,7 @@ async function getData(address: string){
     const transactionCount = await provider.getTransactionCount(address);
 console.log(ethers.formatEther(balance))
 console.log(transactionCount)
-}  
+}   
 
 getData('0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85')
 getData('0xf4bfaf916a68b0fC859D63a319034C0f72A88a5C')
