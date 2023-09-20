@@ -2,7 +2,7 @@
 // To overcome this challenge, append your name to the array of champions.
 import {ERC20} from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 pragma solidity ^0.8.20; 
-contract StandardToken is ERC20{
+contract StandardToken is ERC20{ 
     constructor() ERC20("na", "sy"){
         _mint(address(this),1_000e8);
         // So, the line _mint(address(this),1_000e8); is minting 100,000,000 tokens and assigning 
