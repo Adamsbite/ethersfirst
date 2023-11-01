@@ -10,7 +10,7 @@ contract menty {
     function added(uint x, uint y) external pure returns (uint) {
         // The function returns the sum of x and y
         return x + y;
-    }
+    } 
 
      function add( ) external pure returns (uint) {
          uint age = 4;
