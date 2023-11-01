@@ -4,7 +4,7 @@ import {ERC20} from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob
 pragma solidity ^0.8.20; 
 contract StandardToken is ERC20{ 
     constructor() ERC20("na", "sy"){
-        _mint(address(this),1_000e8);
+        _mint(address(this),1_000e8); 
         // So, the line _mint(address(this),1_000e8); is minting 100,000,000 tokens and assigning 
         // them to the contract itself. This is typically done in the constructor function of the 
         // contract, meaning it happens when the contract is deployed.
